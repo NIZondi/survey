@@ -157,7 +157,7 @@ $conn->close();
   <h2>_Surveys</h2>
   <div>
     <button onclick="location.href='index.php'" style="margin-right: 10px;">FILL OUT SURVEY</button>
-    <button onclick="location.href='surveyview.php'" <?php if(basename($_SERVER['PHP_SELF']) == 'surveyview.php') echo 'class="active-button"'; ?> style="margin-right: 10px;">VIEW SURVEY RESULTS</button>
+    <button onclick="location.href='surveyview.php'" class="active-button" style="margin-right: 10px;">VIEW SURVEY RESULTS</button>
   </div>
 </div>
 
